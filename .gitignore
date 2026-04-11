@@ -4,3 +4,5 @@
 Backup*
 *.~BKP
 *.SDF
+Project Backups/
+*.workspace

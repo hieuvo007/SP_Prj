@@ -1,0 +1,6 @@
+# Proteus Temporary and Backup Files
+*.pwi
+*.DBK
+Backup*
+*.~BKP
+*.SDF

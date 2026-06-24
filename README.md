@@ -1,34 +1,31 @@
-# Buck Converter Circuit Simulation
+# DC-DC Buck Converter Design and Simulation
 
-## 📝 Description
-This project focuses on the design and simulation of a **Buck Converter** (Step-down DC-DC Converter) using **Proteus**. The circuit is designed to efficiently convert a higher DC input voltage to a lower, regulated DC output voltage.
+## Overview
 
-## 🛠 Specifications & Tools
-- **Simulation Software:** Proteus 8.13 or higher
-- **Core Components:** MOSFET/IGBT, Inductor, Diode, Capacitor (Power Stage)
-- **Controller:** [Specify your controller, e.g., PWM Controller / Arduino / TL494]
-- **Target Output:** [Input Voltage] -> [Output Voltage]
+This project presents the design and simulation of a DC-DC buck converter in Proteus. The converter steps down a higher DC input voltage to a regulated lower output voltage. PWM control is implemented using the NE555 timer, while an LM358 op-amp provides closed-loop feedback for output voltage regulation.
 
-## 📂 Repository Structure
-- `Hardware/`: Contains Proteus simulation files (`.pdsprj`).
-- `Docs/`: Technical reports and datasheets (To be updated).
-- `Images/`: Screenshots of the circuit diagram and Oscilloscope waveforms.
+## Features
 
-## 🚀 How to Run
-1. Clone the repository:
-   \`\`\`bash
-   git clone [Your-Repo-URL]
-   \`\`\`
-2. Open **Proteus Professional**.
-3. Go to `File -> Open Project` and select the file in the `Hardware/` folder.
-4. Press the **Play** button to start the simulation.
+* PWM generation using NE555.
+* Closed-loop voltage regulation using LM358.
+* Stable output voltage under varying load conditions.
+* Simulation verified before hardware implementation.
 
-## 📅 Project Status
-- [x] Schematic design completed.
-- [x] Simulation validated with stable output.
-- [ ] Technical report completion.
+## Tools and Components
 
----
-**Author:** Võ Thừa Hiếu  
-**Major:** Electrical and Electronics Engineering  
-**University:** Ho Chi Minh City University of Technology (HCMUT)
+* Proteus 8.13+
+* NE555 Timer IC
+* LM358 Op-Amp
+* P-Channel MOSFET
+* Inductor, Diode, Capacitors
+
+## Project Status
+
+* Completed circuit design.
+* Completed simulation validation.
+* Completed hardware prototype testing.
+
+## Author
+
+**Võ Thừa Hiếu**
+Electrical and Electronics Engineering, HCMUT
